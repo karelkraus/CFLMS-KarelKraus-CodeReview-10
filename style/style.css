@@ -1,0 +1,78 @@
+body {
+	background-image: url('../img/library.jpg');
+	background-size: cover;
+}
+
+body::-webkit-scrollbar {
+	width: 0.5rem;
+	background: #7c4c1c;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #1f1712;
+}
+
+/* Resizing of swiper */
+
+.swiper-slide {
+	width: 18rem;
+}
+
+/* Navbar styling */
+
+.upBar {
+	box-shadow: 2px 2px 4px #000;
+}
+
+
+/* Form styling */
+
+::placeholder {
+	color: #fff;
+}
+
+.box {
+	position: relative;
+	left: 20%;
+	background: rgb(99, 69, 42, 0.8);
+	width: 60%;
+	padding: 5%;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+
+.box .inputBox input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox select {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.box .inputBox select option {
+	background: rgba(99, 69, 42, 0.5)
+}
+
+
+/* Detal page styling */
+
+.detailImage {
+	opacity: 0.2;
+}
